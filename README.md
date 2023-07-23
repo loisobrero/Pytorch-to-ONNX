@@ -9,6 +9,7 @@ This project demonstrates how to convert a PyTorch model to the ONNX format usin
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Netron Trace](#netron-visualization-of-our-model)
+- [Predictions and Inference](#pytorch-and-onnx-predictions-and-inference)
 - [Contributing](#contributing)
 - [License](#license)
 
