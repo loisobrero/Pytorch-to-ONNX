@@ -8,6 +8,7 @@ This project demonstrates how to convert a PyTorch model to the ONNX format usin
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Netron Trace](#netron-visualization-of-our-model)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -83,7 +84,6 @@ For visualizing the model architecture, you can use visualization tools like Net
 
 ## Netron Visualization of our model
 ![Netron Graph](resources/onnx_netron_example.png)
-*The first few layers of our onnx trace.*
 
 ## Contributing
 
