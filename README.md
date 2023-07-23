@@ -81,6 +81,10 @@ To implement quantization on the ONNX model, refer to the quantization.py script
 
 For visualizing the model architecture, you can use visualization tools like Netron (https://github.com/lutzroeder/Netron) or ONNX Graph Viewer (https://github.com/codewell/onnx-graph).
 
+## Netron Visualization of our model
+![Netron Graph](resources/onnx_netron_example.png)
+*The first few layers of our onnx trace.*
+
 ## Contributing
 
 Contributions to this project are welcome. If you find any issues or want to add new features, please submit a pull request.
