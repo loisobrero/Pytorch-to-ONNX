@@ -1,10 +1,9 @@
 # PyTorch to ONNX Conversion Project
 
-This project demonstrates how to convert a PyTorch model to the ONNX format using the IMDb movie reviews dataset and the BERT model for sentiment analysis.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Dataset](#dataset)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -15,14 +14,23 @@ This project demonstrates how to convert a PyTorch model to the ONNX format usin
 
 ## Introduction
 
-The goal of this project is to showcase the process of converting a PyTorch model to the ONNX format. We use the IMDb movie reviews dataset for sentiment analysis and the BERT model, which is a popular Transformer-based language model developed by Google.
+This project demonstrates how to convert a PyTorch model to the ONNX format using the IMDb movie reviews dataset and the BERT model for sentiment analysis. Our objective is to demonstrate how ONNX improves runtime efficiency in self-attention based architectures (in this case we are using BERT to demonstrate this due to its relatively simple design).
 
-The steps involved in the project are as follows:
-1. Training a BERT model using PyTorch on the IMDb movie reviews dataset.
-2. Converting the trained PyTorch model to the ONNX format, which is a standard format for representing machine learning models.
-3. Demonstrating how to incorporate the speed comparison when running the ONNX model.
-4. Implementing quantization, which is a technique to reduce the memory footprint and speed up inference of the ONNX model.
-5. Visualizing the model to gain insights into its architecture and layers.
+## Purpose and Objectives
+
+The goal of this project is to showcase the process of converting a PyTorch model to the ONNX format. We use the IMDb movie reviews dataset for sentiment analysis and the BERT model, which is a popular Transformer-based language model developed by Google. Our goal is to understand how ONNX provides us with valuable runtime conversion tools through the following tasks:
+
+- [x] [Training BERT using PyTorch on the IMDb movie reviews dataset (Val: ?)](model.py)
+- [x] [Converting the trained PyTorch model to the ONNX format](onnx_converter.py)
+- [x] [Benchmarking performance between pytorch and ONNX runtime](main.py)
+- [x] [Use Netron to visualize the ONNX model trace](resources/onnx_netron_example.png)
+- [ ] [Implementing quantization with the ONNX model](README.md)
+- [ ] [Benchmarking performance between default and quantized ONNX models](README.md)
+- [ ] [Analyze findings and performance for all three model runtimes](README.md)
+
+## Dataset
+
+TBC
 
 ## Requirements
 
@@ -38,6 +46,7 @@ You can install the required libraries using the following command:
 ```bash
 pip install torch transformers onnx
 ```
+
 ## Getting Started
 
 1. Clone the repository to your local machine
