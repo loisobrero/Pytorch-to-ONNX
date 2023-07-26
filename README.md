@@ -24,13 +24,13 @@ The goal of this project is to showcase the process of converting a PyTorch mode
 - [x] [Converting the trained PyTorch model to the ONNX format](onnx_converter.py)
 - [x] [Benchmarking performance between pytorch and ONNX runtime](main.py)
 - [x] [Use Netron to visualize the ONNX model trace](resources/onnx_netron_example.png)
-- [ ] [Implementing quantization with the ONNX model](README.md)
-- [ ] [Benchmarking performance between default and quantized ONNX models](README.md)
-- [ ] [Analyze findings and performance for all three model runtimes](README.md)
+- [x] [Implementing quantization with the ONNX model](main.py)
+- [x] [Benchmarking performance between default and quantized ONNX models](main.py)
+- [x] [Analyze findings and performance for all three model runtimes](main.py)
 
 ## Dataset
 
-TBC
+[IMDB Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 ## Requirements
 
@@ -88,7 +88,7 @@ The PyTorch model will be converted to the ONNX format and saved as movie_review
 
 For incorporating the speed comparison when running the ONNX model, refer to the relevant section in the main.py script.
 
-To implement quantization on the ONNX model, refer to the quantization.py script.
+To implement quantization on the ONNX model, refer to the main.py script.
 
 For visualizing the model architecture, you can use visualization tools like Netron (https://github.com/lutzroeder/Netron) or ONNX Graph Viewer (https://github.com/codewell/onnx-graph).
 
