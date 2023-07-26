@@ -2,3 +2,4 @@ movie_review_classifier.onnx
 __pycache__/model.cpython-310.pyc
 __pycache__/onnx_converter.cpython-310.pyc
 movie_review_classifier_quantized.onnx
+movie_review_classifier_quantized.onnx
