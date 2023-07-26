@@ -30,6 +30,14 @@ The goal of this project is to showcase the process of converting a PyTorch mode
 
 ## Dataset
 
+In this project, the IMDB Movie Reviews Dataset, comprising 50,000 reviews, is utilized to train a sentiment analysis model. The dataset is divided evenly into training and test sets.
+
+The reviews are preprocessed with a BERT tokenizer, converting the text into tokenized form. A BERT model, fine-tuned on the training set, is then used to understand the context of each word in a review, considering all other words.
+
+Following training, the model's performance is evaluated on the test set by comparing the predicted sentiments with the actual ones.
+
+For optimization, the model is converted into ONNX format and quantized, which reduces memory requirements and computational complexity. The outcome is a fast and efficient model capable of determining the sentiment - positive or negative - of an IMDB review.
+
 [IMDB Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 ## Requirements
