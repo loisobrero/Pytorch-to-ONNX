@@ -8,7 +8,7 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Netron Trace](#netron-visualization-of-our-model)
-- [Predictions and Inference](#pytorch-and-onnx-predictions-and-inference)
+- [Predictions and Inference](#pytorch-and-quantized-onnx-predictions-and-inference)
 - [Contributing](#contributing)
 - [License](#license)
 
