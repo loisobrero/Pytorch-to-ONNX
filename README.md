@@ -96,7 +96,7 @@ For visualizing the model architecture, you can use visualization tools like Net
 ![Netron Graph](resources/onnx_netron_example.png)
 
 ## Pytorch and Quantized ONNX predictions and inference 
-![predictions and inference](resources\results.png)
+![predictions and inference](resources/results.png)
 
 ## Contributing
 
