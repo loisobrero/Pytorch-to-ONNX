@@ -38,8 +38,10 @@ Following training, the model's performance is evaluated on the test set by comp
 
 For optimization, the model is converted into ONNX format and quantized, which reduces memory requirements and computational complexity. The outcome is a fast and efficient model capable of determining the sentiment - positive or negative - of an IMDB review.
 
+The IMDB Movie Reviews dataset can be downloaded from the following source:
 [IMDB Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
+Please download the dataset and ensure it is available in the appropriate directory before running the model.
 ## Requirements
 
 Before running the project, ensure you have the following prerequisites:
